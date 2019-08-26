@@ -5,20 +5,41 @@
 	<script type="text/javascript" src="main.js"></script>
 	<title></title>
 </head>
-<body>
-	<h1>Text-a-List</h1>
-	<p>Create a list and text it to your phone!</p>
-
-	<div id="wrapper">
-		<div id="list">
+<body id="body">
+	
+	<div id="main">
+		<!--<img id="hero" src="images/hero-img.png" alt="Photo by Plush Design Studio on Unsplash">-->
+		<h1>Text-a-List</h1>
+		<p><i>Create a list and text it<br>to yourself or share it!</i></p>
+		
+		<div class="control">
+			<form>
+				<label class="label" for="input-item"></label>
+				<input id="input-item" type="text" name="input-item" placeholder="New list item" minlength="1" maxlength="33">
+				<button class="submit" id="submit">Add Item</button>
+			</form>
+		</div>
+	
+	
+		<div class="wrapper">
+			<div id="list">
+				
+			</div>
 			
 		</div>
-		
+	
+		<div id="form">
+			<form>
+				
+			</form>
+			
+		</div>
 	</div>
-
-	<div id="form">
-		
-	</div>
+	
 
 </body>
+<footer>
+Header photo by Plush Design Studio on Unsplash
+Background photo by Ashkan Forouzani 🇮🇷 on Unsplash
+</footer>
 </html>
