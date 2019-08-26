@@ -25,6 +25,8 @@ body {
 	height: 150px;
 }
 
+
+
 h1 {
 	font-size: 3em;
 	margin-left: 15px;
@@ -34,6 +36,7 @@ h1 {
 	text-shadow: 1px 1px black;
 	margin-bottom: 10px;
 	margin-top: -130px;
+	
 }
 
 p {
@@ -58,15 +61,6 @@ p {
 	border-radius: 10px;
 	border: 1px solid black;
 }
-
-/*
-#submit:hover {
-	outline:none;
-	border: 3px solid darkgreen;
-	transform: translateX(2px);
-	padding: 3px 4px 2px 6px;
-}
-*/
 
 #submit {
 	font-size: .75em;
@@ -105,6 +99,19 @@ p {
 	height: auto;
 	grid-column-start: 1;
 	border-radius: 10px;
+	z-index: 5;
+}
+
+.form {
+	font-size: 1em;
+	color: white;
+	max-width: 420px;
+	border-radius: 10px;
+	border: 1px solid black;
+	padding-top: 20px;
+	margin-top: 15px;
+	background-color: teal;
+	z-index: 1;
 }
 
 footer {

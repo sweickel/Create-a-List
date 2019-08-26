@@ -1,13 +1,13 @@
-
-var addItem = function() {
-	if (document.getElementById('input-item').textContent !== "") {
+var addNew = function () {
 		// add new html element with list item
-		console.log('Test Complete.')
-	} 
-}
+		console.log('Test Complete.');
+};
+
+document.addEventListener('click', addNew);
+
+
 
 
 
 
 //Adds list item to list
-document.querySelector('.submit').addEventListener('click', addItem);
